@@ -14,6 +14,18 @@
                     <span>Dashboard</span>
                 </a>
             </li>
+            <li class="{{ Route::is('admin.dashboard') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('admin.dashboard') }}">
+                    <i class="fas fa-home"></i>
+                    <span>Product</span>
+                </a>
+            </li>
+            <li class="{{ Route::is('admin.dashboard') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('admin.dashboard') }}">
+                    <i class="fas fa-home"></i>
+                    <span>Distributor</span>
+                </a>
+            </li>
         </ul>
     </aside>
 </div>

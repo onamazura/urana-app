@@ -7,6 +7,7 @@
                     <i class="fas fa-bars"></i>
                 </a>
             </li>
+            
         </ul>
     </form>
     <ul class="navbar-nav navbar-right">
@@ -16,9 +17,6 @@
                 <div class="d-sm-none d-lg-inline-block">Hi, Admin</div>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
-                <a href="{{ route('admin.product') }}" class="dropdown-item has-icon">
-                    <i class="fas fa-box"></i> Produk
-                </a>
                 <a href="{{ route('admin.logout') }}" class="dropdown-item has-icon text-danger">
                     <i class="fas fa-sign-out-alt"></i> Logout
                 </a>

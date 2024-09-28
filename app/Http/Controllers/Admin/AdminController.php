@@ -11,12 +11,12 @@ class AdminController extends Controller
 {
     public function dashboard()
     {
-        $productCount = Product::count(); // Menggunakan 'productCount' untuk membedakan dengan $products
+        $products = Product::count(); // Menggunakan 'productCount' untuk membedakan dengan $products
         $users = User::count();
         $distributors = Distributor::count();
-        $products = Product::all(); // Mengambil semua data produk untuk ditampilkan di dashboard
+        $productsall = Product::all(); // Mengambil semua data produk untuk ditampilkan di dashboard
 
-        return view('pages.admin.index', compact('productCount', 'users', 'distributors', 'products'));
+        return view('pages.admin.index', compact('products', 'users', 'distributors', 'productsall'));
     }
 
     // public function indexInAdmin()

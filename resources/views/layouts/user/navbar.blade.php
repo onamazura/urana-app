@@ -21,6 +21,11 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                     </ul>
+                    <ul class="nav navbar-nav menu_nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Product</a>
+                        </li>
+                    </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('user.logout') }}">Logout</a>
