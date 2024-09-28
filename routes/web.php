@@ -20,7 +20,7 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('/admin', [AdminController::class, 'dashboard'])->name('admin.dashboard');
     // Product Route
     // Route::get('/admin', [AdminController::class, 'indexInAdmin'])->name('admin.indexInAdmin');
-    Route::get('/product', [ProductController::class, 'index'])->name('pages.admin.product.index');
+    Route::get('/product', [ProductController::class, 'index'])->name('admin.product');
     Route::get('/admin-logout', [AuthController::class, 'admin_logout'])->name('admin.logout');
     // Distributor Route
     Route::get('/distributor', [DistributorController::class, 'index'])->name('admin.distributor');
