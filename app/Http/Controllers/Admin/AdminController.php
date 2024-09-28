@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\Product;
+use App\Models\User;
+use App\Models\Distributor;
+class AdminController extends Controller
+{
+    public function dashboard()
+    {
+        $productCount = Product::count(); // Menggunakan 'productCount' untuk membedakan dengan $products
+        $users = User::count();
+        $distributors = Distributor::count();
+        $products = Product::all(); // Mengambil semua data produk untuk ditampilkan di dashboard
+
+        return view('pages.admin.index', compact('productCount', 'users', 'distributors', 'products'));
+    }
+
+    // public function indexInAdmin()
+    // {
+    //     $products = Product::all();
+    //     return view('pages.admin.index', compact('products'));
+    // }
+}
