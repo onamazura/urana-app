@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\User;
 use App\Models\Admin;
-use App\Models\Distributor2;
+use App\Models\Distributor;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -31,7 +31,7 @@ class DatabaseSeeder extends Seeder
              'password' => bcrypt('123456789') ,
          ]);
 
-        Distributor2::create([
+        Distributor::create([
             'nama_distributor' => 'onamazura',
             'lokasi' => 'Selatbaru',
             'kontak' => '082230505166',

@@ -63,12 +63,13 @@ class AuthController extends Controller
         return view('register');
     }
 
+    // Proses registrasi user
     public function post_register(Request $request)
     {
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'email' => 'required|email:dns',
-            'password' => 'required|min:8|max:8',
+            'password' => 'required|min:8|max:10|confirmed',
         ]);
 
         if ($validator->fails()) {
@@ -76,15 +77,17 @@ class AuthController extends Controller
             return redirect()->back();
         }
 
+        // Membuat user baru
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => bcrypt($request->password),
-            'point' => 10000,
+            'point' => 10000, // Set point default
         ]);
 
+        // Berhasil membuat user
         if ($user) {
-            Alert::success('Berhasil!', 'Akun baru berhasil dibuat, silahkan melakukan login!');
+            Alert::success('Berhasil!', 'Akun baru berhasil dibuat, silahkan login!');
             return redirect('/');
         } else {
             Alert::error('Gagal!', 'Akun gagal dibuat, silahkan coba lagi!');

@@ -1,0 +1,5 @@
+.img-square {
+    width: 100%; /* Atur lebar gambar sesuai dengan kontainer */
+    height: 250px; /* Atur tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Memastikan gambar di-*crop* dan sesuai dengan area */
+}

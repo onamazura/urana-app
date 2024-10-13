@@ -22,7 +22,7 @@
                             <h4>Total Pengguna</h4>
                         </div>
                         <div class="card-body">
-                            {{ $users }}
+                            {{ $userCount }}
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                             <h4>Total Produk</h4>
                         </div>
                         <div class="card-body">
-                            {{ $products }}
+                            {{ $productCount }}
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                             <h4>Total Distributor</h4>
                         </div>
                         <div class="card-body">
-                            {{ $distributors }}
+                            {{ $distributorCount }}
                         </div>
                     </div>
                 </div>

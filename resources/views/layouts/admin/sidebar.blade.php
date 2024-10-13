@@ -14,16 +14,19 @@
                     <span>Dashboard</span>
                 </a>
             </li>
-            <li class="{{ Route::is('admin.product') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('admin.product') }}">
-                    <i class="fas fa-home"></i>
-                    <span>Product</span>
-                </a>
-            </li>
-            <li class="{{ Route::is('admin.distributor') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('admin.distributor') }}">
+            <li class="{{ Request::is('product*') ? 'active' : '' }}">
+         <a class="nav-link" href="{{ route('admin.product') }}"><i class="fas fa-box"></i> 
+        <span>Produk</span></a></li>
+            <li class="{{ Route::is('admin.distributors') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('admin.distributors') }}">
                     <i class="fas fa-home"></i>
                     <span>Distributor</span>
+                </a>
+            </li>
+            <li class="{{ Route::is('admin.flash_sales') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('admin.flash_sales') }}">
+                    <i class="fas fa-box"></i>
+                    <span>Product Sale</span>
                 </a>
             </li>
         </ul>
