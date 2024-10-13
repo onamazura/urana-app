@@ -1,17 +1,57 @@
 <h1 align="center">Project E-Commerce  Merch Store</h1>
 
 
-<h3>User Dashboard</h3>
-<img src='/images_project/user_index.jpeg'>
+<h3>User Register</h3>
+<img src='/images_project/register.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>User Login</h3>
+<img src='/images_project/login.jpeg style="width: 50%; height: 50%;" >
 
 <h3>User Dashboard</h3>
-<img src='/images_project/user_index.jpeg'>
+<img src='/images_project/user_index.jpeg' style="width: 50%; height: 50%;" >
 
-<h3>User Dashboard</h3>
-<img src='/images_project/user_index.jpeg'>
+<h3>User Beli</h3>
+<img src='/images_project/user_beli.jpeg' style="width: 50%; height: 50%;" >
 
-<h3>User Dashboard</h3>
-<img src='/images_project/user_index.jpeg'>
+<h3>User Beli</h3>
+<img src='/images_project/user_detail.jpeg style="width: 50%; height: 50%;" >
+
+<h3>Admin Dashboard</h3>
+<img src='/images_project/dashboard_admin.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>Admin Product</h3>
+<img src='/images_project/product_admin.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>Tambah Product</h3>
+<img src='/images_project/tambah_product.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>Edit Product</h3>
+<img src='/images_project/edit_product.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>Detail Product</h3>
+<img src='/images_project/detail_product.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>Admin Distributor</h3>
+<img src='/images_project/distributor_admin.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>Tambah Distributor</h3>
+<img src='/images_project/tambah_distri.jpeg style="width: 50%; height: 50%;" >
+
+<h3>Edit Distributor</h3>
+<img src='/images_project/edit_distri.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>Admin Product Sale</h3>
+<img src='/images_project/produksale_index.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>Tambah Product Sale</h3>
+<img src='/images_project/tambah_sale.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>Edit Product Sale</h3>
+<img src='/images_project/edit_sale.jpeg' style="width: 50%; height: 50%;" >
+
+<h3>Hapus Data</h3>
+<img src='/images_project/hapusdata_admin.jpeg' style="width: 50%; height: 50%;" >
+
 
 
 
